@@ -3,16 +3,12 @@
 
 for (let i = 1; i<=100; i++){
     //Troviamo i multipli di 3 quindi matematicamente tutti i numeri divisibili per 3
-    if(i%3==0){
-        console.log("multiplo di 3");
-        //troviamo i multipli di 5 quindi tutti i numeri divisibili per 5
-    } else if (i%5==0){
-        console.log("multiplo di 5");
-        //se i primi cicli non sono soddisfatti allora vogliamo stampare il numero normale senza verifica di multipli
-
-    }else if (i%3==0 && i%5==0){ 
-        console.log("FIZZBUZZ");
-
+    if(i%3==0 && i%5==0){
+        console.log("FIZBUZZ");
+    }else if(i%3==0){
+        console.log("Fizz");
+    }else if(i%5==0){
+        console.log("Buzz");
     }else{
         console.log(i);
     }
