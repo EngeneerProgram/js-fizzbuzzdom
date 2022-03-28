@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background: rgba(24, 58, 74, 1);
+}
+
+body{
+    background-color: var(--background);
+}
+h1{
+    font-size: 50px;
+    color:white;
+}
+.center{
+    text-align: center;
+}
+
+.container_number{
+    width: 1200px;
+    height: 700px;
+    margin:5rem auto;
+    background-color:white;
+    box-shadow: 0 0 10px rgb(243, 206, 206);
+    border-radius: 10px;
+}
