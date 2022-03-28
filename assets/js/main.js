@@ -9,12 +9,12 @@ for (let i = 1; i<=100; i++){
     } else if (i%5==0){
         console.log("multiplo di 5");
         //se i primi cicli non sono soddisfatti allora vogliamo stampare il numero normale senza verifica di multipli
-        
+
+    }else if (i%3==0 && i%5==0){ 
+        console.log("FIZZBUZZ");
+
     }else{
         console.log(i);
     }
 }
 
-const numero = document.getElementById("number");
-
-numero.appendChild(i);
